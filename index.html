@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="https://files.catbox.moe/ro4i4p.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <div class="buttons">
+      <button id="details-btn">DETAILS</button>
+      <button id="contact-btn">CONTACT ME</button>
+    </div>
+
+    <div id="details-menu" class="hidden">
+      <button id="personal-details-btn">PERSONAL DETAILS</button>
+      <button id="pc-specs-btn">PC SPECS</button>
+    </div>
+
+    <div id="contact-menu" class="hidden">
+      <a href="https://web.facebook.com/profile.php?id=61566515494558" target="_blank">
+        <img src="https://files.catbox.moe/9utorv.jpg" alt="Facebook">
+      </a>
+      <a href="https://discord.com/invite/w32MBJ32" target="_blank">
+        <img src="https://files.catbox.moe/dfz5l1.jpg" alt="Discord">
+      </a>
+      <a href="https://wa.me/+94706176162?text=Hey_denu" target="_blank">
+        <img src="https://files.catbox.moe/k2m08u.jpg" alt="WhatsApp">
+      </a>
+    </div>
+
+    <div id="image-popup" class="hidden">
+      <img id="popup-image" src="" alt="Popup Image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
