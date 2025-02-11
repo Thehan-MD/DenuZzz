@@ -1,0 +1,2 @@
+# DenuZzz
+A simple website
